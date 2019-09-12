@@ -19,12 +19,9 @@ git clone https://github.com/caiocarneloz/keras-oasis.git
 
 ## Features
 With this code, its possible to:
-
----
 - Retrieve all the labels from clinical info (considering CDR)
 - Extract features from any OASIS-1 image using Keras Applications
 - Generate a dataset containing all non-zero features and corresponding labels
----
 
 
 ## Usage
