@@ -1,9 +1,9 @@
-# keras-oasis
-Keras pre-trained deep neural networks for Open Access Series of Imaging Studies (OASIS) feature extraction.
+# koasis
+Keras pre-trained deep neural networks for [Open Access Series of Imaging Studies (OASIS)](https://www.oasis-brains.org/) feature extraction.
 
 ## Getting Started
 #### Dependencies
-You need Python 3.7 or later to use **keras-oasis**. You can find it at [python.org](https://www.python.org/).
+You need Python 3.7 or later to use **koasis**. You can find it at [python.org](https://www.python.org/).
 
 You aso need numpy, pandas and keras packages, which is available from [PyPI](https://pypi.org). If you have pip, just run:
 ```
@@ -51,3 +51,10 @@ As output, for each pre-trained model, a .csv file containing the features and l
 10   3.632581  0.000000  4.830678  0.0  ...  23.841797  14.104014   0.0    Control
 11   3.157856  0.000000  4.083702  0.0  ...  17.051870   6.060349   0.0  Alzheimer
 ```
+
+## Citation
+If you use OASIS dataset, please cite the original publication:
+
+`
+MARCUS, Daniel S. et al. Open Access Series of Imaging Studies (OASIS): cross-sectional MRI data in young, middle aged, nondemented, and demented older adults. Journal of cognitive neuroscience, v. 19, n. 9, p. 1498-1507, 2007.
+`
