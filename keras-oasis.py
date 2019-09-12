@@ -30,9 +30,7 @@ def getLabel(path):
     else:
         return 'Control'
 
-def main():
-
-    path = './oasis_images/'
+def oasis_extract(path):
 
     for pt_model, pp_i, m_name in zip([dense,vgg16,vgg19,xception,resnet,nasnet,mobilenet], \
                                       [pp_dense,pp_vgg16,pp_vgg19,pp_xception,pp_resnet,pp_nasnet,pp_mobilenet], \
@@ -73,6 +71,3 @@ def main():
         df.columns = np.arange(0,len(df.columns))
         sufix = folder.split('/')
         df.to_csv(path+'./'+m_name+'_features_'+sufix[len(sufix)-2]+'.csv',sep=';',index=False)
-
-if __name__ == "__main__":
-    main()
