@@ -31,7 +31,7 @@ Having this, it is necessary just call the oasis_extract function sending the fo
 oasis_extract('folder/')
 ```
 
-#### Output
+## Output
 As output, for each pre-trained model, a .csv file containing the features and labels is generated:
 ```
 0           1         2         3    4  ...       6223       6224  6225       6226
