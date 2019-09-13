@@ -34,7 +34,7 @@ oasis_extract('folder/')
 ## Output
 As output, for each pre-trained model, a .csv file containing the features and labels is generated:
 ```
-0           1         2         3    4  ...       6223       6224  6225       6226
+            0         1         2    3  ...       6223       6224  6225       6226
 0    0.751712  0.000000  4.072742  0.0  ...  42.221912   0.000000   0.0    Control
 1    2.542512  0.000000  3.418418  0.0  ...  13.266520   5.047302   0.0    Control
 2    0.904695  0.000000  3.447591  0.0  ...   7.464177   0.000000   0.0  Alzheimer
